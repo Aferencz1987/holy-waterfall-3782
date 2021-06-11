@@ -32,6 +32,7 @@ RSpec.describe 'flight index' do
     expect(page).to have_content(passenger2.name)
     expect(page).to have_content(passenger3.name)
     expect(page).to have_content(passenger4.name)
+
   end
 
   it 'removes a passenger' do
