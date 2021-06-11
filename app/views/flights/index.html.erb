@@ -1,0 +1,7 @@
+<% @flights.each do |flight| %>
+  <%= flight.number %><br>
+  <%= flight.airline.name %><br>
+  <% flight.passengers.each do |passenger| %>
+    <%= passenger.name %>
+  <% end %><br>
+<% end %>
